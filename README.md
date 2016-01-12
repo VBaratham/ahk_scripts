@@ -1,2 +1,2 @@
 # ahk_scripts
-My personal AutoHotKey scriptsto emulate emacs/OSX behavior on windows
+My personal AutoHotKey scripts to emulate emacs/OSX behavior on windows
