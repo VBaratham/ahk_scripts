@@ -1,6 +1,11 @@
 ; These keybindings are set with InputLevel 50 so the alt+<whatever> combos mapped
 ; to ctrl+<whatever> don't trigger them
 
+
+WinGetClass, class, A
+MsgBox, The active window's class is "%class%".
+
+#IfWinNotActive ahk_class CASCADIA_HOSTING_WINDOW_CLASS
 #InputLevel 50
 
 ^f:: Send {right}
@@ -25,3 +30,4 @@
 ;!f:: Send ^{right} ; duplicates "find" feature
 
 #InputLevel 0
+#IfWinNotActive
